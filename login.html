@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al-Shaafi MediCare</title>
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- normalize css -->
+    <link rel = "stylesheet" href = "css/normalize.css">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- slick slider css -->
+    <link rel = "stylesheet" href = "plugins/slick-1.8.1/slick/slick.css">
+    <link rel = "stylesheet" href = "plugins/slick-1.8.1/slick/slick-theme.css">
+    <!-- custom css -->
+    <link rel = "stylesheet" href = "css/utilities.css">
+    <link rel = "stylesheet" href = "css/main.css">
+
+</head>
+<body>
+	<!--Header-->
+	<header class = "header" id = "header">
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "index.html" class = "navbar-brand flex">
+                    <img src = "images/logo1.png" alt="alshaafi logo">
+                    <!--  <span class = "text-uppercase text-white font-sm fw-5">Al-Shaafi Medicare</span> -->
+                </a>
+                <button type = "button" class = "navbar-toggler-btn text-white">
+                    <i class = "fas fa-bars fa-2x"></i>
+                </button>
+
+                <div class = "navbar-collapse bg-green">
+                    <ul class = "navbar-nav text-capitalize font-md fw-7">
+                        <li class = "nav-item">
+                            <a href = "#header" class = "nav-link text-white">home</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#about" class = "nav-link text-white">about us</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#courses" class = "nav-link text-white">Services</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#teachers" class = "nav-link text-white">Mission</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#programs" class = "nav-link text-white">Reviews</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#contact" class = "nav-link text-white">Appointment</a>
+                        </li>
+						
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class = "header-banner-wrapper">
+            <div class = "header-banner banner-one flex">
+                <div class = "container text-center text-white">
+                    <h1>We’re here for you</h1>
+                    <p class = "lead">Helping you take control of your health and wellbeing.</p>
+					<a href="#contact"><button type = "button" class = "btn">Book an Appointment</button></a>
+                </div>
+            </div>
+            <div class = "header-banner banner-two flex">
+                <div class = "container text-center text-white">
+                    <h1>Women's Health</h1>
+                    <p class = "lead">Find information about Women's Health, including Periods, Contraception, Conditions and Screening</p>
+                    <button type = "button" class = "btn">Sign Up</button>
+                </div>
+            </div>
+            <div class = "header-banner banner-three flex">
+                <div class = "container text-center text-white">
+                    <h1>Your Al-Shaafi Account</h1>
+                    <p class = "lead">Log in to your Al-Shaafi Account to book GP Appointments, order repeat Prescriptions and Access a Range of other Healthcare Services.</p>
+                    <button type = "button" class = "btn">Login</button>
+                </div>
+            </div>
+            <div class = "header-banner banner-four flex">
+                <div class = "container text-center text-white">
+                    <h1>Al-Shaafi MediCare Services</h1>
+                    <p class = "lead">Find the Service you need and Book Appointments Online.</p>
+                    <button type = "button" class = "btn">Learn more</button>
+                </div>
+            </div>
+    </div>
+    </header>
+	<!-- end of Header -->
+	
+	<!-- Login -->
+    <section class="contact py-4 bg-white" id="contact">
+        <div class="container">
+          <div class="section-title">
+            <h2>Log In</h2>
+          </div>
+          <div class="contact-left">
+            <form action="/login" method="post" class="font-md text-center">
+              <input type="text" class="form-control fw-6" placeholder="Username" id="username" name="username" required>
+              <input type="email" class="form-control fw-6" placeholder="E-mail" id="email" name="email" required>
+              <input type="password" class="form-control fw-6" placeholder="Password" id="password" name="password" required>
+              <button type="submit" class="btn bg-green">Login</button>
+            </form>
+          </div>
+        </div>
+      </section>
+        <!-- end of contact section -->
+	<!-- Login End -->
+	
+	
+	
+	 <!-- footer -->
+    <footer class = "footer bg-dark" id = "footer">
+        <div class = "container">
+            <div class = "footer-content grid">
+                <div class = "footer-logo flex">
+                    <img src = "images/logo.png">
+                    <span class = "text-uppercase text-white font-sm fw-5">Al-Shaafi MediCare</span>
+                </div>
+
+                <div class = "footer-links font-md text-center">
+                    <a href = "#header" class = "text-white fw-5">Home</a>
+                    <a href = "#about" class = "text-white fw-5">About Us</a>
+                    <a href = "#courses" class = "text-white fw-5">Services</a>
+                    <a href = "#teachers" class = "text-white fw-5">Mission</a>
+                    <a href = "#programs" class = "text-white fw-5">Reviews</a>
+                    <a href = "#contact" class = "text-white fw-5">Appointment</a>
+                </div>
+            </div>
+			<div class="text-center text-white mt-4">
+            &copy; 2023 Syed Muhammad Haider Razvi. All Rights Reserved.
+        </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+
+<script src="/js/doctorlog.js"></script>
+
+
+
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- slick slider js -->
+    <script src = "plugins/slick-1.8.1/slick/slick.js"></script>
+    <!-- custom js -->
+    <script src = "js/script.js"></script>
+	
+</body>
+</html>
